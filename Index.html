@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketaki Katdare - Resume</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f9f9f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --text-light: #666666;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            font-size: 0.95rem;
+            color: var(--text-light);
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+
+        .item-title {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .item-date {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .item-subtitle {
+            font-style: italic;
+            color: var(--text-light);
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+        }
+
+        ul.details-list {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        ul.details-list li {
+            margin-bottom: 5px;
+            font-size: 0.95rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-category {
+            background: var(--bg-color);
+            padding: 15px;
+            border-radius: 6px;
+        }
+
+        .skill-category h3 {
+            font-size: 1rem;
+            color: var(--accent-color);
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            .item-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header & Contact -->
+        <header>
+            <h1>Ketaki Katdare</h1>
+            <div class="title">Student</div>
+            <div class="contact-info">
+                <span>ketakikatdare14@gmail.com</span> | 
+                <a href="https://www.linkedin.com/in/ketaki-katdare-156825334" target="_blank">LinkedIn Profile</a>
+            </div>
+        </header>
+
+        <!-- Objective -->
+        <section>
+            <h2>Objective</h2>
+            <p>Psychology graduate and PGDM student at IMDR seeking an HR internship to gain hands-on exposure to talent management, employee engagement and organisational development. Interested in applying a people-centric perspective, communication skills and academic understanding of behaviour to workplace contexts.</p>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Institute of Management Development and Research, Pune</span>
+                    <span class="item-date">2026 - 2028</span>
+                </div>
+                <div class="item-subtitle">PGDM</div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Abasaheb Garware College, Pune</span>
+                    <span class="item-date">2026</span>
+                </div>
+                <div class="item-subtitle">B.A. Psychology | 8.93 CGPA</div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">H.V. Desai Junior College, Pune</span>
+                    <span class="item-date">2023</span>
+                </div>
+                <div class="item-subtitle">HSC | 65%</div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Kantilal Shah Vidyalaya, Pune</span>
+                    <span class="item-date">2021</span>
+                </div>
+                <div class="item-subtitle">SSC | 75%</div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <h2>Experience</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Psychology Intern - Jeevan Jyot Mandal</span>
+                    <span class="item-date">2025 (6 Months)</span>
+                </div>
+                <ul class="details-list">
+                    <li>Worked with specially-abled children through learning activities and support[span_0](start_span)[span_0](end_span).</li>
+                    <li>Developed skills in communication, empathy, patience and adaptive teaching[span_1](start_span)[span_1](end_span).</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Psychology Intern - Dusre Parv Foundation</span>
+                    <span class="item-date">2025</span>
+                </div>
+                <ul class="details-list">
+                    <li>Visited Yerwada Central Jail and explored Criminal Psychology in correctional settings[span_2](start_span)[span_2](end_span).</li>
+                    <li>Conducted school visits to understand Educational Psychology and student behaviour[span_3](start_span)[span_3](end_span).</li>
+                    <li>Studied sleep, circadian rhythm and their impact on mental health and counselling[span_4](start_span)[span_4](end_span).</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Functional Skills</h3>
+                    <p>HRM, Recruitment, Employee Engagement, Project Management</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <p>MS Excel, PowerPoint, Canva, German</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Behavioral Skills</h3>
+                    <p>Communication, Teamwork, Leadership, Empathy, Adaptability, Creativity</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section>
+            <h2>Certifications</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Advanced Diploma in German Language</span>
+                    <span class="item-date">2026</span>
+                </div>
+                <div class="item-subtitle">Savitribai Phule Pune University</div>
+            </div>
+        </section>
+
+        <!-- Co-curricular Activities -->
+        <section>
+            <h2>Co-Curricular Activities</h2>
+            <div class="item">
+                <div class="item-title">Bharatanatyam</div>
+                <p>Trained in Bharatanatyam and completed the Madhyama Purna level.</p>
+            </div>
+            <div class="item">
+                <div class="item-title">Theatre & Cultural Activities</div>
+                <p>Participated in theatre cultural activities.</p>
+            </div>
+            <div class="item">
+                <div class="item-title">Poetry & Creative Writing</div>
+                <p>Interested in poetry and creative writing.</p>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
